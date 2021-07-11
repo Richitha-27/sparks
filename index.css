@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header
+{
+    text-align: center;
+            background-color: rgb(27, 3, 94);
+            color: white;
+            height: 90px;
+            font-size: 35px;
+            font-family:cursive;
+    
+}
+.front
+{
+    display: flex;
+    flex-direction: row;
+            
+}
+.btns
+{
+    height:70px;
+    width: 200px;
+    margin-top: 40px;
+    margin-left: 20px;
+    border-radius: 20px;
+    background-color:rgb(228, 44, 20);
+    font-size: 30px;
+    font-family: cursive;
+}
+.btns:hover
+{
+    background-color:rgb(207, 171, 50) ;
+}
